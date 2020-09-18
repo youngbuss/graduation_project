@@ -1,0 +1,115 @@
+html {
+  -moz-box-sizing: border-box;
+       box-sizing: border-box;
+}
+
+*, *:before, *:after {
+  -moz-box-sizing: border-box;
+       box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 16px;
+  line-height: 1.5;
+  background: #FCFCFC;
+  font-color:black;
+}
+
+nav ul {
+  list-style: none;
+  padding-left: 0;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+h1 {
+  width: 500px;
+  margin: 20px auto 20px;
+  color: #00DD77;
+  text-align: center;
+}
+
+h2 {
+  width: 300px;
+  margin: 20px auto 20px;
+  color: #97FFFF;
+  text-align: center;
+}
+h4 {
+  width: 100px;
+  margin: 20px auto 20px;
+  color:#00FF7F;
+  text-align: center;
+}
+
+.nav {
+  width: 600px;
+  margin: 0 auto;
+  background: #00AA00;
+  color: #f0f0f0;
+}
+.nav a {
+  display: block;
+  padding: 0 35px;
+  line-height: inherit;
+  cursor: pointer;
+}
+.nav__menu {
+  line-height: 45px;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+.nav__menu-item {
+  display: inline-block;
+  position: relative;
+}
+.nav__menu-item:hover {
+  background-color: #9b59b6;
+}
+.nav__menu-item:hover .nav__submenu {
+  display: block;
+}
+.nav__submenu {
+  font-weight: 300;
+  text-transform: none;
+  display: none;
+  position: absolute;
+  width: 220px;
+  background-color: #9b59b6;
+}
+.nav__submenu-item:hover {
+  background: rgba(0, 0, 0, 0.1);
+}
+.file-box{ position:relative;width:340px;margin-bottom:20px;}
+.function-box{ position:relative;width:400px;margin-bottom:20px;}
+.txt{ height:28px;line-height:28px; border:1px solid #cdcdcd; width:180px;}
+.btn{width:70px; color:#fff;background-color:#3598dc; border:0 none;height:28px; line-height:16px!important;cursor:pointer;}
+.btn:hover{background-color:#63bfff;color:#fff;}
+.file{ position:absolute; top:0; right:85px; height:30px;line-height:30px; filter:alpha(opacity:0);opacity: 0;width:254px }
+
+#loading {
+	width:170px;
+	height:25px;
+	border:3px solid #C3DAF9;
+	position:absolute;
+	top:300px;
+	left:600px; 
+	z-index:10000; 
+	background-color:#F7F9FC;
+	line-height:25px;
+	vertical-align:middle;
+	font-size:11pt;
+	display:none;
+}
+
+.user_mode{              
+    float:left;
+}
+.all_mode{               
+    float:left;
+}
+.fuzzy_class{          
+    float:left;
+}
